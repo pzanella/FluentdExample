@@ -25,7 +25,7 @@
 
 		$ tail -100 /var/log/td-agent/td-agent.log
 		
-### Original file row example (structure):
+### Original file row example:
 2018-04-06 12:00:00,000|STREAM-LIN|0|username0|123|field1|field2|field3|||||field...|||||||||it|fieldN
 
 ### Td-agent result file:
