@@ -23,4 +23,10 @@
 	
 - Td-agent log file:
 
-		$ sudo tail -100 /var/log/td-agent/td-agent.log
+		$ tail -100 /var/log/td-agent/td-agent.log
+		
+### Original file row example (structure):
+2018-04-06 12:00:00,000|STREAM-LIN|0|username0|123|field1|field2|field3|||||field...|||||||||it|fieldN
+
+### Td-agent result file:
+2018-04-06 12:00:00|CET|123|TEST|it
